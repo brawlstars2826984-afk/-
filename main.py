@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 
 player_image = pygame.image.load('../pythonProject2/sprite.png').convert_alpha()
 player_rect = player_image.get_rect(center =(WIDTH // 2, HEIGHT // 2))
-speed = 5
+speed = 6
 
 running = True
 while running:
